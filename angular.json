@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "docker-demo"
+    }
+  },
+  "defaultProject": "docker-demo",
+  "cli": {
+    "analytics": "74ffd83d-ae42-475a-9d12-c6140e56ef85"
+  }
 }
