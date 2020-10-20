@@ -9,10 +9,10 @@ pipeline {
     stage('Pre-Build') {
       parallel {
         stage('Running Angular Lint') {
-            steps { sh 'npm run l' }
+            steps { sh 'npm run lint' }
         }
         stage('Running Unit Tests') {
-            steps { sh 'npm run t' }
+            steps { sh 'npm run test' }
         }
       }
     }
